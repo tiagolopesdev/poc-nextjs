@@ -6,4 +6,4 @@ export async function GET() {
 
 }
 
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+// const delay = () => new Promise(resolve => setTimeout(resolve, ms));
