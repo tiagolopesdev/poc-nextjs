@@ -14,7 +14,7 @@ export default function Home() {
             </Link>
           </li>
           <li>
-            <Link href="/products">
+            <Link href="/products" prefetch={false}>
               Ir para o products
             </Link>
           </li>
