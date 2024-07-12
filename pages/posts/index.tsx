@@ -17,7 +17,7 @@ const Posts = ({ posts }: any) => {
       <h1>Posts</h1>
       {
         posts.map((item: any) => {
-          return <div style={{ margin: '10px' }}>
+          return <div style={{ margin: '10px' }} key={item.id}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
           </div>
