@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
 const Posts = ({ posts }: any) => {
   return (
     <div>
-      <h1>Posts</h1>
+      <h1>Posts - SSG</h1>
       {
         posts.map((item: any) => {
           return <div style={{ margin: '10px' }} key={item.id}>

@@ -21,7 +21,8 @@ export default function Home() {
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
           </p>
-          <Link href="/posts" prefetch={true}>Posts</Link>
+          <Link href="/ssg" prefetch={true}>SSG</Link>
+          <Link href="/ssr" prefetch={true}>SSR</Link>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
